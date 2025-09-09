@@ -1,6 +1,0 @@
-Invoking command in '/home/bhj/sim_ws/learn_gz/build/learn_gz': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/bhj/sim_ws/learn_gz -DCMAKE_INSTALL_PREFIX=/home/bhj/sim_ws/learn_gz/install/learn_gz
-Invoked command in '/home/bhj/sim_ws/learn_gz/build/learn_gz' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/bhj/sim_ws/learn_gz -DCMAKE_INSTALL_PREFIX=/home/bhj/sim_ws/learn_gz/install/learn_gz
-Invoking command in '/home/bhj/sim_ws/learn_gz/build/learn_gz': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/bhj/sim_ws/learn_gz/build/learn_gz -- -j12 -l12
-Invoked command in '/home/bhj/sim_ws/learn_gz/build/learn_gz' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/bhj/sim_ws/learn_gz/build/learn_gz -- -j12 -l12
-Invoking command in '/home/bhj/sim_ws/learn_gz/build/learn_gz': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/bhj/sim_ws/learn_gz/build/learn_gz
-Invoked command in '/home/bhj/sim_ws/learn_gz/build/learn_gz' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/bhj/sim_ws/learn_gz/build/learn_gz
