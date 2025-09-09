@@ -1,0 +1,32 @@
+-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: 
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/bhj/sim_ws/learn_gz/build/learn_gz
+-- Install configuration: ""
+-- Installing: /home/bhj/sim_ws/learn_gz/install/learn_gz/share/learn_gz//launch
+-- Installing: /home/bhj/sim_ws/learn_gz/install/learn_gz/share/learn_gz//launch/gz_sim.launch.py
+-- Up-to-date: /home/bhj/sim_ws/learn_gz/install/learn_gz/share/ament_index/resource_index/package_run_dependencies/learn_gz
+-- Installing: /home/bhj/sim_ws/learn_gz/install/learn_gz/share/ament_index/resource_index/parent_prefix_path/learn_gz
+-- Up-to-date: /home/bhj/sim_ws/learn_gz/install/learn_gz/share/learn_gz/environment/ament_prefix_path.sh
+-- Installing: /home/bhj/sim_ws/learn_gz/install/learn_gz/share/learn_gz/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/bhj/sim_ws/learn_gz/install/learn_gz/share/learn_gz/environment/path.sh
+-- Installing: /home/bhj/sim_ws/learn_gz/install/learn_gz/share/learn_gz/environment/path.dsv
+-- Up-to-date: /home/bhj/sim_ws/learn_gz/install/learn_gz/share/learn_gz/local_setup.bash
+-- Up-to-date: /home/bhj/sim_ws/learn_gz/install/learn_gz/share/learn_gz/local_setup.sh
+-- Up-to-date: /home/bhj/sim_ws/learn_gz/install/learn_gz/share/learn_gz/local_setup.zsh
+-- Installing: /home/bhj/sim_ws/learn_gz/install/learn_gz/share/learn_gz/local_setup.dsv
+-- Installing: /home/bhj/sim_ws/learn_gz/install/learn_gz/share/learn_gz/package.dsv
+-- Up-to-date: /home/bhj/sim_ws/learn_gz/install/learn_gz/share/ament_index/resource_index/packages/learn_gz
+-- Up-to-date: /home/bhj/sim_ws/learn_gz/install/learn_gz/share/learn_gz/cmake/learn_gzConfig.cmake
+-- Up-to-date: /home/bhj/sim_ws/learn_gz/install/learn_gz/share/learn_gz/cmake/learn_gzConfig-version.cmake
+-- Up-to-date: /home/bhj/sim_ws/learn_gz/install/learn_gz/share/learn_gz/package.xml
