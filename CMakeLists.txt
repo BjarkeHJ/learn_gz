@@ -5,19 +5,45 @@ if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES "Clang")
   add_compile_options(-Wall -Wextra -Wpedantic)
 endif()
 
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+
+set(EXEC_NAME tester)
+
 # find dependencies
 find_package(ament_cmake REQUIRED)
+find_package(rclcpp REQUIRED)
 # uncomment the following section in order to fill in
 # further dependencies manually.
 # find_package(<dependency> REQUIRED)
 
+include_directories(
+  include
+)  
+  
+add_executable(${EXEC_NAME} 
+  src/test.cpp)
+
+ament_target_dependencies(${EXEC_NAME} 
+  rclcpp
+)
+
+install(TARGETS
+  ${EXEC_NAME}
+  DESTINATION lib/${PROJECT_NAME}
+)
 
 install(DIRECTORY 
+  include
+  DESTINATION include
+)
+
+install(DIRECTORY
   launch
   config
   worlds
   DESTINATION share/${PROJECT_NAME}/
-)
+)  
 
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)
